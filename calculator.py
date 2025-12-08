@@ -10,17 +10,17 @@ Operation = input("Select the oparation '+','-', '*', '/': ")
 if Operation == Operation_1:
     print(a+b)
 
-if Operation == Operation_2:
+elif Operation == Operation_2:
     print(a-b)
 
-if Operation == Operation_3 :
+elif Operation == Operation_3 :
     print(a*b)
  
-if b==0 :
-    print("Cannot divide by zero")
-     
 elif Operation==Operation_4 :
     print(a/b)
- 
+
+elif b==0 :
+    print("Cannot divide by zero")
+     
 else:
- print("Select correct opration") 
+    print("Select correct opration") 
